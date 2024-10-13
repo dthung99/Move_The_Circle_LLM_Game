@@ -9,3 +9,8 @@ This is a simple game where you can move a circle using your voice. The game uti
 1. **Voice Input**: Press space and speak your commands into the microphone.
 2. **Speech-to-Text**: The Whisper-1 API converts your voice into text.
 3. **Prompt Engineering**: The text is processed with the GPT-4o-mini API to create movement instructions for the circle.
+
+## Demo
+
+https://github.com/user-attachments/assets/15f0b0e5-373e-4362-a346-5394a3d2879a
+

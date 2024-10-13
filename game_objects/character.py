@@ -21,24 +21,24 @@ class CircleCharacter:
         self.color = color  # Set the color of the circle
 
     def move_left(self):
-        """Move the circle left by 5 pixels."""
+        """Move the circle left by 1 pixels."""
         if self.x > 0:
-            self.x -= 5  # Decrease the x-coordinate
+            self.x -= 1  # Decrease the x-coordinate
 
     def move_right(self):
-        """Move the circle right by 5 pixels."""
+        """Move the circle right by 1 pixels."""
         if self.x < self.screen.get_width():
-            self.x += 5  # Increase the x-coordinate
+            self.x += 1  # Increase the x-coordinate
 
     def move_down(self):
-        """Move the circle down by 5 pixels."""
+        """Move the circle down by 1 pixels."""
         if self.y < self.screen.get_height():
-            self.y += 5  # Increase the y-coordinate
+            self.y += 1  # Increase the y-coordinate
 
     def move_up(self):
-        """Move the circle up by 5 pixels."""
+        """Move the circle up by 1 pixels."""
         if self.y > 0:
-            self.y -= 5  # Decrease the y-coordinate
+            self.y -= 1  # Decrease the y-coordinate
 
     def change_color(self, color):
         """

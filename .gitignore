@@ -1,2 +1,11 @@
 # Virtual environment
 move_circle_env
+
+# Note file
+note.txt
+
+# Ignore all __pycache__ directories
+**/__pycache__/
+
+# Key and password
+environment.ps1

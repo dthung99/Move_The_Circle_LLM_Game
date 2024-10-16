@@ -34,12 +34,12 @@ To download and run the application, follow these steps:
 ### Downloading the Application
 
 1. Clone the repository to your local machine:
-   ```bash
-   git clone https://github.com/dthung99/Move_The_Circle_LLM_Game.git
-   ```
+    ```bash
+    git clone https://github.com/dthung99/Move_The_Circle_LLM_Game.git
+    ```
 
 2. Install Dependencies
-   ```bash
+    ```bash
     pip install -r requirements.txt
     ```
 
@@ -48,19 +48,16 @@ To download and run the application, follow these steps:
 Before running the app, you need to set the OpenAI API key as an environment variable. Replace your-api-key with your actual API key:
 
 On Linux/macOS:
-
     ```bash
     export OPENAI_API_KEY=your-api-key
     ```
 
 On Windows (Command Prompt):
-
     ```bash
     export OPENAI_API_KEY=your-api-key
     ```
 
 On Windows (PowerShell):
-
     ```bash
     $env:OPENAI_API_KEY="your-api-key"
     ```

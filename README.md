@@ -48,16 +48,19 @@ To download and run the application, follow these steps:
 Before running the app, you need to set the OpenAI API key as an environment variable. Replace your-api-key with your actual API key:
 
 On Linux/macOS:
+
     ```bash
     export OPENAI_API_KEY=your-api-key
     ```
 
 On Windows (Command Prompt):
+
     ```bash
     export OPENAI_API_KEY=your-api-key
     ```
 
 On Windows (PowerShell):
+
     ```bash
     $env:OPENAI_API_KEY="your-api-key"
     ```

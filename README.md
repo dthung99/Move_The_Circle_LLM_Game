@@ -22,3 +22,41 @@ This is a simple game where you can move a circle using your voice. The game uti
 
 https://github.com/user-attachments/assets/15f0b0e5-373e-4362-a346-5394a3d2879a
 
+## Getting Started
+
+To download and run the application, follow these steps:
+
+### Prerequisites
+
+- Ensure you have Python 3.12.6 or later installed on your machine.
+- You will need an OpenAI API key. Sign up at [OpenAI](https://openai.com) to obtain your key.
+
+### Downloading the Application
+
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/dthung99/Move_The_Circle_LLM_Game.git
+
+2. Install Dependencies
+   ```bash
+    pip install -r requirements.txt
+
+3. Set the OpenAI API Key
+
+Before running the app, you need to set the OpenAI API key as an environment variable. Replace your-api-key with your actual API key:
+
+On Linux/macOS:
+    '''bash
+    export OPENAI_API_KEY=your-api-key
+
+On Windows (Command Prompt):
+    '''bash
+    export OPENAI_API_KEY=your-api-key
+
+On Windows (PowerShell):
+    '''bash
+    $env:OPENAI_API_KEY="your-api-key"
+
+4. Run the Application
+    '''bash
+    python main.py

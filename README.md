@@ -34,9 +34,8 @@ To download and run the application, follow these steps:
 ### Downloading the Application
 
 1. Clone the repository to your local machine:
-    ```bash
+
     git clone https://github.com/dthung99/Move_The_Circle_LLM_Game.git
-    ```
 
 2. Install Dependencies
 

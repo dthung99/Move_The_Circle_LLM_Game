@@ -55,9 +55,7 @@ On Linux/macOS:
 
 On Windows (Command Prompt):
 
-    ```bash
     export OPENAI_API_KEY=your-api-key
-    ```
 
 On Windows (PowerShell):
 
